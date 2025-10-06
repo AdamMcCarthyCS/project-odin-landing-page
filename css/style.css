@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Roboto;
+}
+
+/* This section is used to align the elements in the header and hero */
+.header-and-hero {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15vw;
+}
+
+.secondary {
+    color: #e5e7eb;
+}
+
+.primary-text {
+    color: #f9faf8;
+}
+
+/* This section is to style the header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.hero-logo {
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    gap: 16px;
+    margin: 0;
+}
+
+/* This section is to style the hero */
+button {
+    background-color: #3882f6;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 8px;
+    padding: 4px 24px;
+    border: 0;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+    margin: 64px 0;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: #808080;
+
+}
+
+.main {
+    flex: 1;
+    
+}
+.primary-text.text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.main .secondary {
+    font-size: 18px;
+}
+
