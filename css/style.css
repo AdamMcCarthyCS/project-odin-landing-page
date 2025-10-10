@@ -20,11 +20,12 @@ body {
 }
 
 /* This section is to style the header */
-.header {
+#header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 18px;
+    /* Style me to shrink to 66% with min-width later */
 }
 
 .hero-logo {
@@ -55,7 +56,6 @@ button {
 
 .hero {
     display: flex;
-    justify-content: space-between;
     gap: 48px;
     margin: 64px 0;
 }
@@ -64,14 +64,15 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1;
+    flex: none;
+    height: 200px;
+    width: 450px;
     background-color: #808080;
 
 }
 
 .main {
     flex: 1;
-    
 }
 .primary-text.text {
     font-size: 48px;
@@ -82,3 +83,70 @@ button {
     font-size: 18px;
 }
 
+/* Information Section */
+
+#information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20vw;
+    
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding: 32px;
+}
+
+.cards {
+    display: flex;
+    gap: 48px;
+    padding-bottom: 60px;
+}
+
+.cards div {
+    text-align: center;
+}
+
+.image-placeholder {
+    border: 3px solid #3882f6;
+    border-radius: 12px;
+    height: 150px;
+}
+
+.information-content {
+    width: 150px;
+}
+
+.cards p {
+    margin-top: 8px;
+}
+
+/* This is for styling the quote section */
+
+#quote {
+    background-color: #e5e7eb;
+    padding: 70px 20vw;
+    display: flex;
+    flex-direction: column;
+}
+
+blockquote {
+    flex: 1;
+    align-self: center;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+    font-style: italic;
+    margin-bottom: 0px;
+
+}
+
+#quote p {
+    align-self: flex-end;
+    font-style: normal;
+    font-weight: 900;
+    margin: 0px 100px;
+}
