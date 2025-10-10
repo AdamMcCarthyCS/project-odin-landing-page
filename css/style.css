@@ -64,14 +64,15 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1;
+    flex: none;
+    height: 200px;
+    width: 450px;
     background-color: #808080;
 
 }
 
 .main {
     flex: 1;
-    
 }
 .primary-text.text {
     font-size: 48px;
