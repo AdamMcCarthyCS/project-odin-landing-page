@@ -25,6 +25,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-top: 18px;
+    /* Style me to shrink to 66% with min-width later */
 }
 
 .hero-logo {
@@ -55,7 +56,6 @@ button {
 
 .hero {
     display: flex;
-    justify-content: space-between;
     gap: 48px;
     margin: 64px 0;
 }
@@ -89,6 +89,8 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 20vw;
+    
 }
 
 .information-header {
@@ -118,6 +120,33 @@ button {
     width: 150px;
 }
 
-p {
+.cards p {
     margin-top: 8px;
+}
+
+/* This is for styling the quote section */
+
+#quote {
+    background-color: #e5e7eb;
+    padding: 70px 20vw;
+    display: flex;
+    flex-direction: column;
+}
+
+blockquote {
+    flex: 1;
+    align-self: center;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+    font-style: italic;
+    margin-bottom: 0px;
+
+}
+
+#quote p {
+    align-self: flex-end;
+    font-style: normal;
+    font-weight: 900;
+    margin: 0px 100px;
 }
