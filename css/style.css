@@ -83,3 +83,41 @@ button {
     font-size: 18px;
 }
 
+/* Information Section */
+
+#information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding: 32px;
+}
+
+.cards {
+    display: flex;
+    gap: 48px;
+    padding-bottom: 60px;
+}
+
+.cards div {
+    text-align: center;
+}
+
+.image-placeholder {
+    border: 3px solid #3882f6;
+    border-radius: 12px;
+    height: 150px;
+}
+
+.information-content {
+    width: 150px;
+}
+
+p {
+    margin-top: 8px;
+}
