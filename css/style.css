@@ -156,6 +156,7 @@ blockquote {
 #call-to-action {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     margin: 60px 15vw;
     background-color: #3882f6;
     padding: 40px 50px;
@@ -169,4 +170,8 @@ blockquote {
 
 #call-to-action .call-details {
     font-weight: 200;
+}
+
+#call-to-action button {
+    border: 1px solid #fff;
 }
