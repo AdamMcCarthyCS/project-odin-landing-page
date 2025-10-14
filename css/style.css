@@ -150,3 +150,11 @@ blockquote {
     font-weight: 900;
     margin: 0px 100px;
 }
+
+/* This is for styling the call to action */
+
+#call-to-action {
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 15vw;
+}
