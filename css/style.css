@@ -175,3 +175,11 @@ blockquote {
 #call-to-action button {
     border: 1px solid #fff;
 }
+
+/* This is for styling the footer */
+
+#footer {
+    background-color: #1f2937;
+    padding: 24px;
+    color: #fff;
+}
