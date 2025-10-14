@@ -160,5 +160,13 @@ blockquote {
     background-color: #3882f6;
     padding: 40px 50px;
     border-radius: 5px;
-    
+    color: white
+}
+
+#call-to-action .call {
+    font-weight: 700;
+}
+
+#call-to-action .call-details {
+    font-weight: 200;
 }
