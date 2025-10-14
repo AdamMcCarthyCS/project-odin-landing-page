@@ -150,3 +150,40 @@ blockquote {
     font-weight: 900;
     margin: 0px 100px;
 }
+
+/* This is for styling the call to action */
+
+#call-to-action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 60px 15vw;
+    background-color: #3882f6;
+    padding: 40px 50px;
+    border-radius: 5px;
+    color: white
+}
+
+#call-to-action .call {
+    font-weight: 700;
+}
+
+#call-to-action .call-details {
+    font-weight: 200;
+}
+
+#call-to-action button {
+    border: 1px solid #fff;
+}
+
+/* This is for styling the footer */
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 24px;
+    color: #fff;
+    font-weight: 200;
+}
